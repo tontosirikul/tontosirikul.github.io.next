@@ -6,16 +6,9 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charset="utf-8" />
-          <link rel="shortcut icon" href="/public/favicon.ico" />
+          <link rel="shortcut icon" href="../public/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="theme-color" content="#000000" />
           <meta name="description" content="TonTosirikul's site" />
-          <link
-            rel="apple-touch-icon"
-            href="%PUBLIC_URL%/personal-information.png"
-          />
-
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap"
