@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Typist from "react-typist";
 import TypistLoop from "react-typist-loop";
-
+import Head from "next/head";
 export default function Home() {
   return (
     <div className="HomePage">
