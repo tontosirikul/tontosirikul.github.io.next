@@ -16,7 +16,7 @@ export default function Home() {
       <header className="greeting">
         {/* <img src={logo} /> */}
         <h1 className="greeting-text">
-          Hi, welcome to <span>TonTosirikul</span>`&apos;`s site.
+          Hi, welcome to <span>TonTosirikul</span>&apos;s site.
         </h1>
         <p className="h-sub-text">
           This site is my first react portfolio project, where you can find all
