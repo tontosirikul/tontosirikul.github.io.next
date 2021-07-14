@@ -3,7 +3,7 @@ import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
 import Title from "../Components/Title";
 import projects from "../Components/allProjects";
-
+import Head from "next/head";
 function Projects() {
   var Cate = ["All"];
   projects.forEach((project) => {
@@ -28,6 +28,9 @@ function Projects() {
   };
   return (
     <div className="ProjectsPage">
+      <Head>
+        <title>TonTosirikul&apos;s site</title>
+      </Head>
       <div className="title">
         <Title title={"Projects"} span={"Projects"}></Title>
       </div>

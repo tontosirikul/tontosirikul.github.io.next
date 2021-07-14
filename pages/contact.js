@@ -4,9 +4,13 @@ import phone from "../public/img/phone.svg";
 import email from "../public/img/emailme.svg";
 import location from "../public/img/location.svg";
 import Title from "../Components/Title";
+import Head from "next/head";
 function Contact() {
   return (
     <div>
+      <Head>
+        <title>TonTosirikul&apos;s site</title>
+      </Head>
       <Title title={"Contact me"} span={"Contact me"} className="title" />
       <div className="ContactPage">
         <div className="map-section">

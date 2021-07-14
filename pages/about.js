@@ -12,10 +12,14 @@ import Title from "../Components/Title";
 import ExperienceSection from "../Components/ExperienceSection";
 import AwardCertsSection from "../Components/AwardCertsSection";
 import skills from "../Components/allSkill";
+import Head from "next/head";
 
 function About() {
   return (
     <div className="AboutPage">
+      <Head>
+        <title>TonTosirikul&apos;s site</title>
+      </Head>
       <Title title={"About me"} span={"About me"} />
 
       <ImageSection />

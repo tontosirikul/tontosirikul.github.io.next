@@ -13,6 +13,9 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div className="HomePage">
+      <Head>
+        <title>TonTosirikul&apos;s site</title>
+      </Head>
       <header className="greeting">
         {/* <img src={logo} /> */}
         <h1 className="greeting-text">
