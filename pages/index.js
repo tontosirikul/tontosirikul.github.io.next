@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="loop">
           <TypistLoop interval={1000}>
-            {["Software Developer 👨‍💻", "Robotics & AI Engineer 🤖"].map(
+            {["Software Developer 💻", "Robotics & AI Engineer 🤖"].map(
               (text) => (
                 <Typist key={text} startDelay={500}>
                   {text}
