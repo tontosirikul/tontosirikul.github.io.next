@@ -19,12 +19,12 @@ export default function Home() {
       <header className="greeting">
         {/* <img src={logo} /> */}
         <h1 className="greeting-text">
-          Hi, welcome to <span>TonTosirikul</span>&apos;s site.
+          Hi, welcome to <span>TonTosirikul</span>&apos;s site. 👋
         </h1>
         <p className="h-sub-text">
-          This site is my first react portfolio project, where you can find all
-          of my information, projects, blogs, contacts, etc via the navigation
-          bar or you can check out my external sites at these icons down below.
+          This site is my portfolio site, where you can find all of my
+          information, projects, blogs and contacts via the navigation bar. And
+          also you can check out my external sites at these icons down below.
         </p>
 
         <div className="icons">
@@ -76,11 +76,13 @@ export default function Home() {
         </div>
         <div className="loop">
           <TypistLoop interval={1000}>
-            {["Software Developer", "Robotics & AI Engineer"].map((text) => (
-              <Typist key={text} startDelay={500}>
-                {text}
-              </Typist>
-            ))}
+            {["Software Developer 👨‍💻", "Robotics & AI Engineer 🤖"].map(
+              (text) => (
+                <Typist key={text} startDelay={500}>
+                  {text}
+                </Typist>
+              )
+            )}
           </TypistLoop>
         </div>
       </header>

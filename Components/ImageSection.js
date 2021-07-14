@@ -14,7 +14,7 @@ function ImageSection() {
         <p className="about-text">
           A self-motivated, enthusiastic Fourth years engineering student with
           various range of programming skills and{" "}
-          <span>&quot;Come on, I can deal with everything.&quot;</span>{" "}
+          <span>&quot;Come on, I can deal with everything.&quot; 💪</span>{" "}
           Attitude. Currently, I&apos;m during internship at SCG being of
           embedded software engineer.
         </p>
@@ -23,14 +23,12 @@ function ImageSection() {
         <div className="about-details">
           <div className="left-section">
             <p>Full Name</p>
-            <p>Age</p>
             <p>Nationality</p>
             <p>Languages</p>
             <p>Address</p>
           </div>
           <div className="right-section">
             <p>: Tanhapon Tosirikul</p>
-            <p>: 22</p>
             <p>: Thailand</p>
             <p>: Thai, English</p>
             <p>
