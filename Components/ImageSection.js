@@ -14,9 +14,9 @@ function ImageSection() {
         <p className="about-text">
           A self-motivated, enthusiastic Third years engineering student with
           various range of programming skills and{" "}
-          <span>"Come on, I can deal with everything."</span> Attitude.
-          Currently, I'm during internship at SCG being of embedded software
-          engineer.
+          <span>`&quot;`Come on, I can deal with everything.`&quot;`</span>{" "}
+          Attitude. Currently, I`&apos;`m during internship at SCG being of
+          embedded software engineer.
         </p>
 
         <p className="about-text"></p>

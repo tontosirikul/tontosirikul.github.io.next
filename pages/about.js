@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from "react";
 import educations from "../Components/allEducation";
 import experiences from "../Components/allExperience";

@@ -13,7 +13,7 @@ function MenuItems({ menuItem }) {
               <ul className="hover-items">
                 {item.link2 === "" && item.link1 === "" ? (
                   <h4 className="icons" style={{ color: "#cf2c96" }}>
-                    "Due to privacy, no information provided"
+                    `&quot;`Due to privacy, no information provided`&quot;`
                   </h4>
                 ) : (
                   <li className="icons">
