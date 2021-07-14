@@ -1,0 +1,50 @@
+@import "./layout.scss";
+@import "./navbar.scss";
+@import "./typography.scss";
+@import "./title";
+@import "./about";
+@import "./skills.scss";
+@import "./education";
+@import "./experience";
+@import "./awardcerts";
+@import "./contact";
+@import "./projects";
+@import "./nprogress";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #0056d865;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #5d5f64;
+}
+body {
+  color: white;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
+}
+
+.Item-img-certificate {
+  height: auto;
+  max-height: 20rem;
+  width: auto;
+  max-width: 20rem;
+}
+
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}

@@ -1,0 +1,32 @@
+.SkillsSection {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .skills-info {
+    width: 100%;
+
+    .skill-title {
+      text-transform: uppercase;
+      color: #cf2c96;
+    }
+  }
+  @media screen and (max-width: 441px) {
+    margin: 1;
+    .skill-title {
+      text-align: center;
+    }
+    .skills-info {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    margin: 1;
+    .skill-title {
+      text-align: center;
+    }
+    .skills-info {
+      text-align: center;
+    }
+  }
+}
