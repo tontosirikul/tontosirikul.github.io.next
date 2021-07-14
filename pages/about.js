@@ -24,10 +24,6 @@ function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="TonTosirikul's site" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Title title={"About me"} span={"About me"} />
 

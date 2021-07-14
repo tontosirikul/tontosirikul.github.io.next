@@ -22,26 +22,26 @@ function NavBar() {
         </div>
         <ul className="nav-items">
           <li className="nav-item">
-            <Link href="/" exact>
+            <Link href="/">
               <a className={router.pathname == "/" ? "active" : ""}>Home</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/about" exact>
+            <Link href="/about">
               <a className={router.pathname == "/about" ? "active" : ""}>
                 About
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/projects" exact>
+            <Link href="/projects">
               <a className={router.pathname == "/projects" ? "active" : ""}>
                 Projects
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/contact" exact activeClassName="active">
+            <Link href="/contact">
               <a className={router.pathname == "/contact" ? "active" : ""}>
                 Contact
               </a>
