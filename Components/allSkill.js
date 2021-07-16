@@ -7,7 +7,7 @@ const skills = [
   {
     id: 2,
     skill: "Frontend",
-    stack: "React.js, HTML, CSS, Javascript",
+    stack: "React.js, Grafana",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const skills = [
   {
     id: 6,
     skill: "Robotics",
-    stack: "ROS, PLC",
+    stack: "ROS, PLC, OpenCV",
   },
   {
     id: 7,
