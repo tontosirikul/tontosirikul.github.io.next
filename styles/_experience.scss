@@ -4,43 +4,86 @@
   justify-content: space-between;
   padding-top: 3rem;
   width: 100%;
-  .experience-info1 {
-    text-align: left;
-    h3 {
-      color: #cf2c96;
-    }
-    p {
-      color: #20adee;
-    }
-    ul {
-      margin-left: 1.5rem;
-    }
+  display: flex;
+  .left-experience-section {
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    margin-top: 1rem;
   }
-  .experience-info2 {
-    text-align: right;
-  }
-  @media screen and (max-width: 1100px) {
-    flex-direction: column;
+  .right-experience-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     .experience-info1 {
+      text-align: left;
       h3 {
-        text-align: center;
+        color: #cf2c96;
       }
       p {
-        text-align: center;
+        color: #20adee;
       }
       ul {
-        margin-top: 1rem;
-        list-style: square;
-        text-align: left;
+        margin-left: 1.5rem;
       }
     }
     .experience-info2 {
-      margin-top: 1rem;
-      h3 {
+      text-align: right;
+    }
+  }
+  @media screen and (max-width: 441px) {
+    margin: 0;
+    .left-experience-section {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .right-experience-section {
+      flex-direction: column;
+      .experience-info1 {
         text-align: center;
       }
-      p {
+      .experience-info2 {
         text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    flex-direction: column;
+    .left-experience-section {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .right-experience-section {
+      flex-direction: column;
+      .experience-info1 {
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+        ul {
+          margin-top: 1rem;
+          list-style: square;
+          text-align: left;
+        }
+      }
+      .experience-info2 {
+        margin-top: 1rem;
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
       }
     }
   }

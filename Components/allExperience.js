@@ -1,6 +1,9 @@
+import rai_logo from "../public/img/rai_logo.png";
+import scg_logo from "../public/img/scg.png";
 const experiences = [
   {
     id: 1,
+    exp_logo: scg_logo,
     workplace: "THE SIAM CEMENT GROUP PCL.",
     position:
       "Embedded Software Engineering Internship, Corporate Innovation Office",
@@ -14,6 +17,7 @@ const experiences = [
   },
   {
     id: 2,
+    exp_logo: rai_logo,
     workplace: "KING’S MONGKUT INSTITUTE OF TECHNOLOGY LADKRABANG",
     position: "Front-End Developer, Robotics Laboratory",
     infos: [
@@ -26,6 +30,7 @@ const experiences = [
   },
   {
     id: 3,
+    exp_logo: rai_logo,
     workplace: "KING’S MONGKUT INSTITUTE OF TECHNOLOGY LADKRABANG",
     position:
       "Teaching Assistant, Computer Programming Module, Robotics Laboratory",
@@ -40,6 +45,7 @@ const experiences = [
   },
   {
     id: 4,
+    exp_logo: rai_logo,
     workplace: "KING’S MONGKUT INSTITUTE OF TECHNOLOGY LADKRABANG",
     position: "Training Staff, Non-degree Program, Robotics Laboratory",
     infos: [
@@ -52,6 +58,7 @@ const experiences = [
   },
   {
     id: 5,
+    exp_logo: rai_logo,
     workplace: "KING’S MONGKUT INSTITUTE OF TECHNOLOGY LADKRABANG",
     position: "Lab Assistant, Pre-Activity Module, Robotics Laboratory",
     infos: [

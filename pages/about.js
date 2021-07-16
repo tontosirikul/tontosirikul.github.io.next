@@ -51,6 +51,7 @@ function About() {
           return (
             <ExperienceSection
               workplace={experience.workplace}
+              exp_logo={experience.exp_logo}
               position={experience.position}
               infos={experience.infos}
               city={experience.city}

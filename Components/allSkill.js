@@ -2,7 +2,7 @@ const skills = [
   {
     id: 1,
     skill: "Programming",
-    stack: "C/C++, Javascript, Python, R",
+    stack: "Python, Javascript, Typescript, C, C++",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const skills = [
   },
   {
     id: 5,
-    skill: "AI/Deep learning",
+    skill: "AI/DL/ML",
     stack: "PyTorch, FastAI",
   },
   {
