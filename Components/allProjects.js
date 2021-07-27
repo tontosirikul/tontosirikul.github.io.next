@@ -5,6 +5,7 @@ import snakegame from "../public/img/snakegame.png";
 import Nav_Viz from "../public/img/Nav_Viz.jpg";
 import SmartInventory from "../public/img/SmartInventory.png";
 import ddcwebapp from "../public/img/ddcwebapp.png";
+import regressionmodel from "../public/img/regressionmodel.png";
 import smartmotor from "../public/img/smartmotor.jpeg";
 import plc from "../public/img/plc.png";
 const projects = [
@@ -32,6 +33,7 @@ const projects = [
     ],
     link1: "",
     link2: "https://github.com/tontosirikul/ROS_Naviz",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: Nav_Viz,
@@ -39,42 +41,39 @@ const projects = [
     detail:
       "Naviz is our implementation of ROS web-based visualization with full functionality from RVIZ with additional Virtual Wall server",
   },
-  // {
-  //   id: 3,
-  //   category: [
-  //     "Python",
-  //     "Flask",
-  //     "Back-end",
-  //     "AI/ML/DL",
-  //     "Dashboard",
-  //     "Grafana",
-  //     "IOT",
-  //   ],
-  //   link1: "",
-  //   link2: "",
-  //   icon1: "G",
-  //   icon2: "Y",
-  //   image: smartmotor,
-  //   title: "Smart Motor Anomaly detection with Grafana IOT dashboard",
-  //   detail:
-  //     "The system performs dashboard to monitor various data from sensors that are attached to the machine, which this system wss intregrated with machine learning algorithm at backend to notify site engineers when anomaly data appears",
-  // },
-  // {
-  //   id: 4,
-  //   category: ["Python", "AI/ML/DL", "SQL"],
-  //   link1: "",
-  //   link2: "",
-  //   icon1: "G",
-  //   icon2: "Y",
-  //   image: "",
-  //   title: "Regression Model on Machine Setting Parameter",
-  //   detail: "",
-  // },
+  {
+    id: 3,
+    category: ["Python", "AI/ML/DL", "MQTT", "Grafana", "IOT"],
+    link1: "",
+    link2: "",
+    link3:
+      "https://docs.google.com/presentation/d/1CZ1D9SWsslrawWbW2CGqd7OPGGRcHvRJ8KLcBOLMaBs/edit?usp=sharing",
+    icon1: "G",
+    icon2: "Y",
+    image: smartmotor,
+    title: "Smart Motor Anomaly detection with Grafana IOT dashboard",
+    detail:
+      "The system performs dashboard to monitor various data from sensors that are attached to the machine, which this system wss intregrated with machine learning algorithm at backend to notify site engineers when anomaly data appears",
+  },
+  {
+    id: 4,
+    category: ["Python", "AI/ML/DL", "FLASK", "PANDAS"],
+    link1: "",
+    link2: "",
+    link3: "",
+    icon1: "G",
+    icon2: "Y",
+    image: regressionmodel,
+    title: "Regression Model on Machine Setting Parameter",
+    detail:
+      "This project is implementation of how to use machine learning to apply with properties of soil water to become ideal machine configuration.",
+  },
   {
     id: 5,
     category: ["Python", "Javascript", "Front-end", "Back-end", "Django"],
     link1: "",
     link2: "https://github.com/tontosirikul/Inventory-Management-System",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: SmartInventory,
@@ -87,6 +86,7 @@ const projects = [
     category: ["C++", "OOP"],
     link1: "",
     link2: "https://github.com/tontosirikul/Udacity-CppND",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: snakegame,
@@ -99,6 +99,7 @@ const projects = [
     category: ["Javascript", "Front-end", "ROS", "Robotics"],
     link1: "https://youtu.be/6Rm00ucj0-4",
     link2: "https://github.com/Kasidit0052/MobileRobot_ROS",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: mobilerobot,
@@ -111,6 +112,7 @@ const projects = [
     category: ["Python", "OpenCV"],
     link1: "https://www.youtube.com/watch?v=anRibpEwmmg",
     link2: "https://github.com/tontosirikul/Ventilator-Counting-OpenCV",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: Ventilator,
@@ -125,6 +127,7 @@ const projects = [
     link1: "https://www.youtube.com/watch?v=6xNEK4WI_I8",
     link2:
       "https://github.com/tontosirikul/Fried-egg-and-Omelette-Images-Classification",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: eggclassification,
@@ -137,6 +140,7 @@ const projects = [
     category: ["Automation", "PLC"],
     link1: "https://www.youtube.com/watch?v=kAZtVZm91ww",
     link2: "",
+    link3: "",
     icon1: "G",
     icon2: "Y",
     image: plc,

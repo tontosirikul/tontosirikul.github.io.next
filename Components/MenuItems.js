@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faArchive } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 function MenuItems({ menuItem }) {
   return (
@@ -9,12 +10,22 @@ function MenuItems({ menuItem }) {
         return (
           <div className="project" key={item.id}>
             <div className="image-data">
-              <Image src={item.image} alt="" />
+              <Image src={item.image} alt="" className="img" />
               <ul className="hover-items">
                 {item.link2 === "" && item.link1 === "" ? (
-                  <h4 className="icons" style={{ color: "#cf2c96" }}>
-                    `&quot;`Due to privacy, no information provided`&quot;`
-                  </h4>
+                  item.link3 !== "" ? (
+                    <a href={item.link3}>
+                      <FontAwesomeIcon
+                        icon={faArchive}
+                        size="lg"
+                        color="black"
+                      ></FontAwesomeIcon>
+                    </a>
+                  ) : (
+                    <h4 className="icons" style={{ color: "#cf2c96" }}>
+                      &quot;Due to privacy, no information provided&quot;
+                    </h4>
+                  )
                 ) : (
                   <li className="icons">
                     {item.link2 !== "" ? (
