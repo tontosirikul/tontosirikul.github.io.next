@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <header className="greeting">
         <h1 className="greeting-text">
-          Hi, welcome to <span>TonTosirikul</span>&apos;s site. 👋
+          Hi, I&apos;m <span>TonTosirikul</span>. 👋
         </h1>
         <p className="h-sub-text">
           This site is my portfolio site, where you can find all of my
@@ -80,13 +80,15 @@ export default function Home() {
         </div>
         <div className="loop">
           <TypistLoop interval={1000}>
-            {["Software Developer 💻", "Robotics & AI Engineer 🤖"].map(
-              (text) => (
-                <Typist key={text} startDelay={500}>
-                  {text}
-                </Typist>
-              )
-            )}
+            {[
+              "Software Developer 💻",
+              "Robotics & AI Engineer 🤖",
+              "Youtube Video Maker 🎬",
+            ].map((text) => (
+              <Typist key={text} startDelay={500}>
+                {text}
+              </Typist>
+            ))}
           </TypistLoop>
         </div>
       </header>

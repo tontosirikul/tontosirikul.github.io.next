@@ -34,6 +34,13 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link href="/blogs">
+              <a className={router.pathname == "/blogs" ? "active" : ""}>
+                Blogs
+              </a>
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link href="/projects">
               <a className={router.pathname == "/projects" ? "active" : ""}>
                 Projects
@@ -49,7 +56,7 @@ function NavBar() {
           </li>
         </ul>
         <footer className="footer">
-          <p>@2021 Tanhapon Tosirikul</p>
+          <p>@2021 TonTosirikul</p>
         </footer>
       </nav>
     </div>
