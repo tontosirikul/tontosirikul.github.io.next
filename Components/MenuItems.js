@@ -6,9 +6,9 @@ import Image from "next/image";
 function MenuItems({ menuItem }) {
   return (
     <div className="projects">
-      {menuItem.map((item) => {
+      {menuItem.map((item, i) => {
         return (
-          <div className="project" key={item.id}>
+          <div className="project" key={i}>
             <div className="image-data">
               <Image src={item.image} alt="" className="img" />
               <ul className="hover-items">

@@ -8,12 +8,13 @@ import ddcwebapp from "../public/img/ddcwebapp.png";
 import regressionmodel from "../public/img/regressionmodel.png";
 import smartmotor from "../public/img/smartmotor.jpeg";
 import plc from "../public/img/plc.png";
+import imageprocessing from "../public/img/imageprocessing.png";
 const projects = [
   // {
-  //   id: 1,
   //   category: ["Javascript", "Front-end", "REACT.JS", "Dashboard"],
   //   link1: "",
   //   link2: "",
+  //   link3: "",
   //   icon1: "G",
   //   icon2: "Y",
   //   image: ddcwebapp,
@@ -22,15 +23,7 @@ const projects = [
   //     "Vaccine Inventory Management for Deparment of Diesease Control, which performs CRUD operation and also illustrates the Thailand map with coverage percentage of each vaccine in each province",
   // },
   {
-    id: 2,
-    category: [
-      "Javascript",
-      "Front-end",
-      "ROS",
-      "REACT.JS",
-      "KONVA.JS",
-      "Robotics",
-    ],
+    category: ["Javascript", "Front-end", "ROS", "React", "Robotics"],
     link1: "",
     link2: "https://github.com/tontosirikul/ROS_Naviz",
     link3: "",
@@ -42,8 +35,7 @@ const projects = [
       "Naviz is our implementation of ROS web-based visualization with full functionality from RVIZ with additional Virtual Wall server",
   },
   {
-    id: 3,
-    category: ["Python", "AI/ML/DL", "MQTT", "Grafana", "IOT"],
+    category: ["Python", "AI/ML/DL", "MQTT", "Dashboard", "IOT"],
     link1: "",
     link2: "",
     link3:
@@ -56,8 +48,7 @@ const projects = [
       "The system performs dashboard to monitor various data from sensors that are attached to the machine, which this system wss intregrated with machine learning algorithm at backend to notify site engineers when anomaly data appears",
   },
   {
-    id: 4,
-    category: ["Python", "AI/ML/DL", "FLASK", "PANDAS"],
+    category: ["Python", "AI/ML/DL", "Flask"],
     link1: "",
     link2: "",
     link3: "",
@@ -69,7 +60,6 @@ const projects = [
       "This project is implementation of how to use machine learning to apply with properties of soil water to become ideal machine configuration.",
   },
   {
-    id: 5,
     category: ["Python", "Javascript", "Front-end", "Back-end", "Django"],
     link1: "",
     link2: "https://github.com/tontosirikul/Inventory-Management-System",
@@ -82,7 +72,25 @@ const projects = [
       "Inventory Management System will replaced all of the paper work for admin and staffs in RAI Lab , and also reduce the time for dealing about borrowing Items in RAI Lab",
   },
   {
-    id: 6,
+    category: [
+      "React",
+      "Express",
+      "Front-end",
+      "Back-end",
+      "Typescript",
+      "Jasmine",
+    ],
+    link1: "",
+    link2: "https://github.com/tontosirikul/ImageProcessing-APP",
+    link3: "",
+    icon1: "G",
+    icon2: "Y",
+    image: imageprocessing,
+    title: "Image Processing APP",
+    detail:
+      "This project aims to be implementation of express as server, which can resize the image from client",
+  },
+  {
     category: ["C++", "OOP"],
     link1: "",
     link2: "https://github.com/tontosirikul/Udacity-CppND",
@@ -95,7 +103,6 @@ const projects = [
       "Implemented the knowledge from C++ nanodegree, from implement A* star to create the snake game",
   },
   {
-    id: 7,
     category: ["Javascript", "Front-end", "ROS", "Robotics"],
     link1: "https://youtu.be/6Rm00ucj0-4",
     link2: "https://github.com/Kasidit0052/MobileRobot_ROS",
@@ -108,7 +115,6 @@ const projects = [
       "Every robots need interface to control, does it better to use webapp instead of use the command line.",
   },
   {
-    id: 8,
     category: ["Python", "OpenCV"],
     link1: "https://www.youtube.com/watch?v=anRibpEwmmg",
     link2: "https://github.com/tontosirikul/Ventilator-Counting-OpenCV",
@@ -122,7 +128,6 @@ const projects = [
   },
 
   {
-    id: 9,
     category: ["Python", "Pytorch", "AI/ML/DL", "fast.ai"],
     link1: "https://www.youtube.com/watch?v=6xNEK4WI_I8",
     link2:
@@ -136,7 +141,6 @@ const projects = [
       "Fast.ai is an intuitive approach to deep learning, which allow me the construct CNN within 4 lines of code.",
   },
   {
-    id: 10,
     category: ["Automation", "PLC"],
     link1: "https://www.youtube.com/watch?v=kAZtVZm91ww",
     link2: "",
