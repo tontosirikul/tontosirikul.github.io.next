@@ -91,6 +91,18 @@ const projects = [
       "This project aims to be implementation of express as server, which can resize the image from client",
   },
   {
+    category: ["Javascript", "Front-end", "Next.js"],
+    link1: "",
+    link2: "",
+    link3: "",
+    icon1: "G",
+    icon2: "Y",
+    image: ddcwebapp,
+    title: "Portfolio website",
+    detail:
+      "Vaccine Inventory Management for Deparment of Diesease Control, which performs CRUD operation and also illustrates the Thailand map with coverage percentage of each vaccine in each province",
+  },
+  {
     category: ["C++", "OOP"],
     link1: "",
     link2: "https://github.com/tontosirikul/Udacity-CppND",
