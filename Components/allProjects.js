@@ -98,7 +98,7 @@ const projects = [
     icon1: "G",
     icon2: "Y",
     image: ddcwebapp,
-    title: "Portfolio website",
+    title: "DDC Vaccine Management System",
     detail:
       "Vaccine Inventory Management for Deparment of Diesease Control, which performs CRUD operation and also illustrates the Thailand map with coverage percentage of each vaccine in each province",
   },
